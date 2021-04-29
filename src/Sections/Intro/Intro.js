@@ -14,6 +14,7 @@ export default class Intro extends Component{
             <li>About Me</li>
             <li>Resume</li>
             <li>Contact</li>
+            <li>Test</li>
           </ul>
         </div>
       </div>
