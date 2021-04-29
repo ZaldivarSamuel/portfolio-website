@@ -1,0 +1,23 @@
+#greeting-container{
+  background-color: white;
+  height: 100vh;
+  display: flex;
+}
+
+.column{
+  flex: 50%;
+}
+
+#greeting{
+  margin: 0;
+  padding-left: 50px;
+  padding-top: 40px;
+  font-size: 80px;
+}
+
+#greeting-menu{
+  background: #218DD8;
+  width: auto;
+  height: 100%;
+  margin: auto;
+}
