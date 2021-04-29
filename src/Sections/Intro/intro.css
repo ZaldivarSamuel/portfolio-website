@@ -4,7 +4,7 @@
   display: flex;
 }
 
-.column{
+.greeting-column{
   flex: 50%;
 }
 
@@ -15,9 +15,24 @@
   font-size: 80px;
 }
 
-#greeting-menu{
+#greeting-menu-container{
   background: #218DD8;
-  width: auto;
-  height: 100%;
+  display: flex;
+}
+
+#greeting-menu-inner-container{
   margin: auto;
+  align-self: center;
+
+}
+
+#greeting-menu{
+  text-align: center;
+  list-style-type: none;
+}
+
+.greeting-menu-option{
+  padding-top: 50px;
+  color: white;
+  font-size: 30px;
 }
