@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Intro from './Sections/Intro/Intro.js';
+import Greeting from './Sections/Greeting/greeting.js';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Intro />
+    <Greeting />
   </React.StrictMode>,
   document.getElementById('root')
 );

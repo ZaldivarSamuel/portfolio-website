@@ -4,20 +4,36 @@
   display: flex;
 }
 
+#greeting-image{
+  position:absolute;
+    width:100%;
+    height:100%;
+    display:block;
+    z-index:1;
+}
+
 .greeting-column{
-  flex: 50%;
+  z-index: 2;
+}
+
+#greeting-section{
+  display: flex;
+  flex: 80%;
 }
 
 #greeting{
-  margin: 0;
   padding-left: 50px;
-  padding-top: 40px;
+  padding-bottom: 20px;
   font-size: 80px;
+  align-self: center;
+  color: white;
 }
 
 #greeting-menu-container{
-  background: #218DD8;
+  background: #1687DF;
   display: flex;
+  flex: 5%;
+  opacity: 0.85;
 }
 
 #greeting-menu-inner-container{
@@ -29,10 +45,15 @@
 #greeting-menu{
   text-align: center;
   list-style-type: none;
+  padding: 0;
 }
 
 .greeting-menu-option{
   padding-top: 50px;
   color: white;
-  font-size: 30px;
+  font-size: 22px;
+}
+
+#greeting-br{
+  height: 20px;
 }
